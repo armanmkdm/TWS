@@ -1,0 +1,148 @@
+.footer-area {
+    position: relative;
+    margin-top: 70px;
+    background-color: rgb(0 108 221 / 7%);
+}
+
+.footer-form-section {
+    margin-top: -40px;
+    background-color: #156afd;
+
+}
+
+.footer-form-section .form-control::placeholder {
+    color: rgba(128, 128, 128, 0.852);
+}
+
+.footer-area ul {
+    padding: 0;
+}
+
+.footer-form {
+    padding: 50px 26px;
+}
+
+.footer-form h4 {
+    color: #fff;
+}
+
+.footer-btn {
+    transition: all 0.4s ease-in;
+    background-color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    width: 100%;
+    color: #156afd;
+}
+
+.footer-btn:hover {
+    transition: all 0.3s ease-in;
+    border: 2px solid #fff;
+    background-color: #156afd;
+
+}
+
+.footer-form .form-control:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.footer-form .form-control {
+    border: none;
+    box-shadow: none;
+}
+
+.footer-area p {
+    color: rgba(128, 128, 128, 0.852);
+}
+
+.footer-area ul li {
+    margin: 7px 0;
+    font-size: 15px;
+    letter-spacing: 0.4px;
+}
+
+.icons-ul li:hover {
+
+    background-color: #156afd;
+    transition: .4s ease-in-out;
+    cursor: pointer;
+}
+
+.icons-ul a {
+    transition: .4s ease-in-out;
+}
+
+/* .icons-ul a:hover {
+    color: #fff;
+    transition: .4s ease-in-out;
+} */
+
+.icons-ul li:hover a {
+    color: #fff;
+    transition: .4s ease-in-out;
+}
+
+.ul-links ul a {
+    transition: .4s ease-in-out;
+    color: rgb(128, 128, 128);
+
+}
+
+.ul-links ul a:hover {
+    color: #156afd;
+    padding-left: 8px;
+    transition: .4s ease-in-out;
+}
+
+.footer-area h5 {
+    margin: 32px 0;
+    color: rgba(0, 0, 0, 0.699);
+}
+
+.footer-bottom {
+    left: 6%;
+    margin-top: -50px;
+    position: absolute;
+    /* background-color: rgba(128, 128, 128, 0.096); */
+}
+
+.footer-bottom p {
+
+    color: rgba(128, 128, 128, 0.852);
+    margin-bottom: 0;
+}
+
+.footer-bottom span {
+    color: #156afd;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.footer-area .social-media-icons {
+    background-color: rgba(128, 128, 128, 0.132);
+    border-radius: 50%;
+    padding: 5px 12px 10px 12px;
+    margin: 0 5px;
+    color: #156afdb3;
+    transition: .5s ease-in-out;
+
+}
+
+.icons-ul {
+    margin-top: 40px;
+}
+
+@media (max-width:786px) {
+    .footer-bottom {
+        padding: 20px 0;
+        margin-top: 0;
+        text-align: center;
+    }
+
+    .footer-form-section {
+        margin-top: 30px;
+    }
+}

@@ -1,0 +1,53 @@
+.blog-cards {
+    height: 260px;
+    padding: 20px 25px 35px;
+    background-color: #fff;
+}
+
+.blog-area h5 {
+    margin-bottom: 15px;
+}
+
+.blog-area p {
+    font-size: 16px;
+    color: #6d6d6d;
+    line-height: 30px;
+    margin: 0 0 30px;
+}
+
+
+.blog-area span {
+    color: #156afd;
+
+}
+
+.blog-cards span {
+    color: #156afd;
+}
+
+.blog-section .blog-image {
+    overflow: hidden;
+
+}
+
+.blog-section img:hover {
+    transform: scale(1.1);
+    opacity: .8;
+    transition: all .5s ease 0s;
+
+}
+
+.blog-section img {
+    transition: all .5s ease 0s;
+}
+
+
+
+
+/* responsive css */
+
+@media (max-width:786px) {
+    .blog-cards {
+        margin-bottom: 20px;
+    }
+}

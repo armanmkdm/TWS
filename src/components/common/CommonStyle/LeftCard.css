@@ -1,0 +1,105 @@
+.leftcard-container {
+    display: flex;
+    margin: 0 40px;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+    margin-bottom: 40px;
+
+}
+
+.leftcard-image-area img {
+    width: 350px;
+    height: 300px;
+}
+
+.leftcard-image-area img:hover {
+    transform: scale(1.1);
+    opacity: .8;
+    transition: all .5s ease 0s;
+}
+
+.leftcarddiv {
+    overflow: hidden;
+
+}
+
+.leftcard-image-area img {
+    transition: all .5s ease 0s;
+}
+
+.leftcard-content-area {
+    width: 750px;
+    margin: 0px 35px;
+    padding: 30px 0;
+}
+
+.leftcard-content-area p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #6d6d6d;
+    margin: 25px 0;
+}
+
+/* responsive css */
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .leftcard-container {
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+
+    .leftcard-content-area {
+
+        padding: 0;
+    }
+    .leftcard-content-area p {
+        font-size: 14px !important;
+        line-height: 27px !important;
+    }
+
+    .leftcard-content-area p {
+        margin: 10px 0;
+    }
+
+    .leftcard-content-area h3 {
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:786px) {
+    .leftcard-image-area img {
+        max-width: 100%;
+    }
+
+
+
+    .leftcard-image-area img {
+        height: 270px;
+    }
+
+    .leftcard-content-area {
+        width: 520px;
+        margin: 0px 15px;
+        padding: 25px 0;
+    }
+
+    .leftcard-container {
+        justify-content: center;
+    }
+
+    .leftcard-content-area h3 {
+        text-align: center;
+    }
+
+    .leftcard-content-area p {
+        text-align: justify;
+    }
+
+    .leftcard-btndiv {
+        text-align: center;
+    }
+
+   
+
+
+}

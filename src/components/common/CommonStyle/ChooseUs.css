@@ -1,0 +1,67 @@
+.chooseus-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.chooseus-section {
+    background-color: rgb(0 108 221 / 10%);
+    padding: 80px 0 40px 0;
+}
+
+.chooseus-cards .chooseus-card {
+    /* position: relative; */
+    height: 173px;
+    background-color: #fff;
+    flex-basis: calc(33.5% - 20px);
+    max-width: 0 0 calc(25.33% - 20px);
+    width: 100%;
+    border-radius: 0px;
+    padding: 20px;
+    border-radius: 7px;
+    box-shadow: 10px 30px 80px #00000014;
+    padding: 30px 15px;
+    transition: all .3s ease 0s;
+    margin: 0 0 40px 0;
+    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+
+}
+
+.chooseus-cards .chooseus-card h5 {
+    color: #000;
+    cursor: default;
+}
+
+.chooseus-cards .chooseus-card .chooseus-img img {
+    margin: 8px 0px;
+    padding: 0px 6px;
+
+}
+
+.chooseus-cards .chooseus-card:hover {
+    transform: translateY(-8.5px);
+    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+
+}
+
+.chooseus-cards .chooseus-card p {
+    color: rgb(128 128 128 / 96%);
+    cursor: default;
+    font-size: 14px;
+}
+
+
+@media (max-width:768px) {
+
+    .chooseus-section{
+        padding: 34px 0 0px 0;
+    }
+
+
+    .chooseus-cards .chooseus-card {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+}

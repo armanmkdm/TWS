@@ -1,0 +1,90 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.cards .card {
+    /* position: relative; */
+    flex: 0 0 calc(32% - 20px);
+    max-width: 0 0 calc(25.33% - 20px);
+    width: 100%;
+    box-shadow: 10px 30px 80px #00000014;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    transition: all .3s ease 0s;
+    margin: 30px 0;
+    height: 360px;
+}
+
+
+
+.modernizeit-section {
+    padding: 40px 70px;
+    background-color: rgb(0 108 221 / 10%);
+    /* background-image: url("../images/modernit.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+.card-link span {
+    font-size: 16.5px;
+}
+
+.cards .card h4 {
+    margin: 15px 0 0 0;
+    cursor: default;
+    color: #000000bf
+}
+
+.cards .card h4 span {
+    color: #156afd;
+    margin:0 5px 0 0;
+}
+
+.cards .card:hover {
+    transform: translateY(-10px);
+    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+
+
+.cards .card p {
+    color: rgb(128 128 128 / 96%);
+    margin: 20px 0 35px 0;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: default;
+
+}
+
+
+
+@media (max-width:768px) {
+
+
+    .cards .card {
+        flex: 0 0 100%;
+        max-width: 100%;
+
+    }
+
+    .modernizeit-section {
+        padding: 0;
+
+    }
+
+    .cards .card h4 {
+        margin: 20px 0;
+    }
+
+    .cards .card {
+        margin: 20px 0 10px 0;
+    }
+
+
+
+}

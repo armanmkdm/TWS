@@ -1,0 +1,325 @@
+/* banner css */
+
+
+
+.banner-text h1 {
+    margin: -80px 0 0 36px;
+    color: #fff;
+}
+
+.experience-left {
+    position: relative;
+}
+
+.experience-section {
+    margin: 85px 0 0 0;
+}
+
+.experience-left img {
+    height: 459px;
+}
+
+.experience-left:after {
+    position: absolute;
+    content: "";
+    right: -40px;
+    bottom: 57px;
+    background-image: url(//emtech.ae/wp-content/themes/emtech/css/../images/dotsbg.jpg);
+    background-repeat: no-repeat;
+    width: 364px;
+    height: 375px;
+    z-index: -1;
+}
+
+.experience-year {
+    position: absolute;
+    background-color: #156afd;
+    color: white;
+    top: 21px;
+    left: 34px;
+    z-index: 2;
+    width: 142px;
+    padding: 11px 8px;
+
+}
+
+.experience-year strong {
+
+    display: block;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 80px;
+    font-weight: 800;
+    padding: 17px 0;
+
+}
+
+.experience-year .since {
+    text-align: right;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.experience-year .year {
+    text-align: left;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.experience-right p {
+    font-size: 16px;
+    color: #6d6d6d;
+    margin: 0;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.experience-right p strong {
+    font-weight: 600;
+    color: #1b1d21;
+}
+
+.experience-right {
+    padding: 20px 0 0 80px;
+
+}
+
+/* unique section */
+
+.unique-section {
+    padding: 45px 0;
+    background-color: rgb(0 108 221 / 10%);
+}
+
+
+
+.unique-left {
+    padding: 15px 40px;
+}
+
+.unique-left p {
+    font-size: 16px;
+    color: #6d6d6d;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.unique-left p strong {
+    font-weight: 600;
+    color: #1b1d21;
+}
+
+.unique-right h3 {
+    margin: 0 0 20px 30px;
+}
+
+.unique-right {
+    background-color: #fff;
+    padding: 30px 35px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 10px 30px 80px #00000014;
+    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.unique-right:hover {
+    transform: translateY(-20px);
+    transition: 1.2s cubic-bezier(0.17, 0.85, 0.438, 0.99);
+}
+
+.checklist li {
+    padding: 0 0 20px 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #6d6d6d;
+
+}
+
+.unique-right ul {
+    padding-left: 0;
+}
+
+.unique-list {
+    padding-left: 10px !important;
+}
+
+.unique-icons {
+    color: #156afd;
+    font-size: 30px;
+
+}
+
+/* vision misson css */
+
+
+.vm-content {
+    align-items: center;
+    padding: 67px 42px;
+    background-color: #f8f8f8;
+}
+
+.vm-content h4 {
+    font-weight: 700;
+}
+
+.vm-image {
+    padding-right: 0;
+    overflow: hidden !important;
+}
+
+.vm-section img {
+
+    transition: all .5s ease 0s;
+}
+
+.vm-section img:hover {
+    transition: all .5s ease 0s;
+    transform: scale(1.1);
+}
+
+.vm-content p {
+    font-size: 16px;
+    color: #6d6d6d;
+}
+
+
+/* Solution section css  */
+
+.sol-row {
+    margin: 30px;
+    /* background-color: #f8f8f8; */
+    padding: 40px 0;
+    align-items: center;
+}
+
+
+
+.sol-content p {
+    color: #6d6d6d;
+}
+
+.sol-content h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* .solutions-section .container {
+    background-color: #f8f8f8;
+} */
+
+
+.solutions-box h3 {
+    font-weight: 700;
+}
+
+/* .solutions-box{
+    padding: 10px 5px;
+} */
+
+
+/* ===============================================*/
+/*               Responsive css                   */
+/* ============================================== */
+
+
+@media (max-width:786px) {
+
+    /* heading css */
+
+    .heading-text {
+        margin: 30px 0;
+    }
+
+    .experience-section {
+        margin: 15px 0 0 0;
+    }
+
+
+
+    /* banner-section */
+
+    .banner-text h1 {
+        margin-top: -50px;
+        text-align: center;
+    }
+
+    /* experience section */
+
+    .experience-year {
+        top: 12px;
+        left: 22px;
+        width: 120px;
+        align-items: center;
+    }
+
+    .experience-right {
+        padding: 24px 10px;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .experience-left:after {
+        display: none;
+    }
+
+    /* unique section */
+
+    .unique-right {
+        margin: 30px 0;
+
+    }
+
+    .unique-left {
+        padding: 0 8px;
+    }
+
+    /* vision mission css */
+
+    .vm-content {
+        padding: 8px 11px;
+
+    }
+
+    .vm-content p {
+        font-size: 14px;
+    }
+
+    /* solution css */
+
+
+
+    .solutions-area {
+        padding: 0 0;
+        background-color: #f8f8f8;
+        margin-bottom: 35px;
+    }
+
+    .sol-row {
+        margin: 0;
+        background-color: #f8f8f8;
+        padding: 0 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sol-content {
+        margin: 30px 0;
+    }
+
+    /* .solutions-area-new{
+        margin-bottom: 35px;
+    } */
+}
+
+@media (max-width: 992px) {
+    .vm-content {
+        padding-top: 70px;
+    }
+}

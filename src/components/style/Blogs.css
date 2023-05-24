@@ -1,0 +1,173 @@
+.blogsimage {
+    overflow: hidden;
+}
+
+.blogsimage img:hover {
+    transform: scale(1.1);
+    opacity: .8;
+    transition: all .5s ease 0s;
+}
+
+.blogsimage img {
+    transition: all .5s ease 0s;
+
+}
+
+.fullblogdiv p {
+    color: rgb(108, 108, 108);
+}
+
+.fullblogdiv h5 {
+    margin: 15px 0 7px 0;
+
+}
+
+.blog-btn-div {
+    margin: 30px 0 30px 0;
+}
+
+.fullblogdiv {
+    margin: 40px 15px 40px 15px;
+}
+
+.blog-btn {
+    background-color: #156afd;
+    border: 2px solid #156afd;
+    color: #fff;
+    border-radius: 19px;
+    padding: 5px 15px 8px 15px;
+    transition: .5s;
+
+}
+
+.blog-btn span {
+    margin: 0 0 0 5px;
+}
+
+.blog-btn:hover {
+    border: 2px solid #156afd8e;
+    background-color: #fff;
+    color: #156afd8e;
+    transition: .3s;
+
+}
+
+.blogpage-txt span {
+    color: #156afd;
+    margin: 80px 48px;
+    font-size: 40px;
+
+}
+
+.blogpage-uppersection {
+    background-color: #f1f1f1;
+    padding: 40px 40px 300px 40px;
+}
+
+.blogpage-img {
+    margin-top: -248px;
+
+}
+
+.blogpagecontent-area {
+    margin: 60px 200px;
+}
+
+.blogpage-uppersection h1 {
+    color: #000;
+    text-align: center;
+}
+
+.blogpage-uppersection a {
+    color: #156afd;
+    text-align: center;
+}
+
+.blogpage-heading {
+    color: #fff;
+    margin-top: -410px;
+    font-size: 75px;
+    text-align: center;
+}
+
+.blogpage-txt {
+    font-size: 16px;
+    color: #686868cc;
+    text-align: justify;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.blogpage-uppersection h1 {
+    margin-bottom: 0;
+}
+
+/* responsive css */
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+    .fullblogdiv h5,.fullblogdiv p{
+        text-align: center;
+    }
+}
+
+@media (max-width:786px) {
+
+    .blog-heading span {
+        padding: 5px 3px;
+        font-size: 10px;
+        margin-top: 20px;
+
+
+    }
+
+    .blog-heading {
+        margin: 0;
+        justify-content: center;
+        display: flex;
+    }
+
+    .blog-btn {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+
+
+    .blogpage-heading {
+        color: #fff;
+        margin-top: -368px;
+        font-size: 64px;
+        text-align: center;
+    }
+
+    .blogpage-txt span {
+        color: #156afd;
+        font-size: 23px;
+        margin: 0;
+    }
+
+    .blogpage-txt {
+        font-size: 16px;
+        color: #686868;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .blogpagecontent-area {
+        margin: 20px 20px;
+    }
+
+    .blogpage-img {
+        margin-top: -188px;
+    }
+
+    .blogpage-uppersection {
+        background-color: #f1f1f1;
+        padding: 10px 40px 200px 40px;
+    }
+
+    .blogpage-uppersection h1 {
+        font-size: 18px;
+    }
+}
